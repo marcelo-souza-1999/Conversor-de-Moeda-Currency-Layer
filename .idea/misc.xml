@@ -8,7 +8,7 @@
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.19" />
         <entry key="app/src/main/res/layout/currencies_list_item.xml" value="0.18" />
         <entry key="app/src/main/res/layout/currencies_row.xml" value="0.25" />
-        <entry key="app/src/main/res/layout/fragment_convert_currencies.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_convert_currencies.xml" value="0.22" />
         <entry key="app/src/main/res/layout/fragment_converter.xml" value="0.22" />
         <entry key="app/src/main/res/layout/fragment_currencies.xml" value="0.25" />
         <entry key="app/src/main/res/layout/fragment_list_currencies.xml" value="0.25" />

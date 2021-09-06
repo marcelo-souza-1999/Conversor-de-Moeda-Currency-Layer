@@ -33,6 +33,7 @@ class ConvertedCurrencieFragment : Fragment() {
 
         this.showCurrencies(binding)
         this.formatCurrencie(binding)
+        this.disabledFields(binding)
         this.showSpinnerCurrenciesOrigin(binding)
         this.showSpinnerCurrenciesDestiny(binding)
         this.clickButtons(binding)
@@ -124,6 +125,10 @@ class ConvertedCurrencieFragment : Fragment() {
             {
                 binding.editTextValueConverted.setText(decimalFormat.format(it))
             })
+    }
+
+    private fun disabledFields(binding: FragmentConvertCurrenciesBinding) {
+        binding.editTextValueConverted.isEnabled = false
     }
 
     private fun clickButtons(binding: FragmentConvertCurrenciesBinding) {
