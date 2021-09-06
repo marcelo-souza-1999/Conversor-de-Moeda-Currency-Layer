@@ -35,7 +35,6 @@ class ListCurrenciesFragment : Fragment()
             adapter.currencies = it
         })
 
-        this.settingsFieldSearch(binding)
         this.settingsFieldName(binding)
         this.settingsFieldCode(binding)
         this.clickReturnButton(binding)
@@ -63,19 +62,5 @@ class ListCurrenciesFragment : Fragment()
             adapter.filter.filter("")
             binding.chipCodeCurrency.isChecked = false
         }
-    }
-
-    private fun settingsFieldSearch(binding: FragmentListCurrenciesBinding) {
-        binding.searchCurrencies.setOnQueryTextListener(object : SearchView.OnQueryTextListener {
-            override fun onQueryTextSubmit(query: String?): Boolean {
-                return false
-            }
-
-            override fun onQueryTextChange(newText: String?): Boolean {
-                adapter.filter.filter(newText)
-                return false
-            }
-
-        })
     }
 }
