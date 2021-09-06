@@ -3,11 +3,20 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="../../../../Android/Sdk/platforms/android-30/data/res/layout/simple_spinner_item.xml" value="0.178125" />
+        <entry key="app/src/main/res/font/roboto.xml" value="0.19907407407407407" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.19" />
+        <entry key="app/src/main/res/layout/currencies_list_item.xml" value="0.18" />
+        <entry key="app/src/main/res/layout/currencies_row.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_converter.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/fragment_currencies.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_list_currencies.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/toolbar_main.xml" value="0.1" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_logo.xml" value="0.1" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">

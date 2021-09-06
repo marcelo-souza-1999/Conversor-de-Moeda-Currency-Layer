@@ -1,3 +1,30 @@
 <resources>
     <string name="app_name">Conversor de Moedas</string>
+    <string name="textview_currency_of_origin">Moeda de Origem:</string>
+    <string name="textview_currency_of_destiny">Moeda de Destino:</string>
+    <string name="textview_value_currency">Insira um valor</string>
+    <string name="textview_value_converted">Valor convertido</string>
+    <string name="textview_get_currency_origin">Moeda de Origem</string>
+    <string name="textview_get_currency_destiny">Moeda de Destino</string>
+    <string name="text_button_converted_value">Converter</string>
+    <string name="text_button_list_currencys">Lista de Moedas</string>
+    <string name="text_button_before">Voltar</string>
+    <string name="text_show_format_currencies">Exibir por:</string>
+    <string name="format_currency_names">Nomes</string>
+    <string name="format_currency_codes">Códigos</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="conversor_de_moedas">Conversor de Moedas</string>
+    <string name="de">De</string>
+    <string name="para">Para</string>
+    <string name="valor">Valor</string>
+    <string name="converter">Converter</string>
+    <string name="resultado">Resultado</string>
+    <string name="moedas">Moedas</string>
+    <string name="valor_convertido">Valor Convertido</string>
+    <string name="ordernar_por">Ordernar Por:</string>
+    <string name="nome">Nome</string>
+    <string name="c_digo">Código</string>
 </resources>
