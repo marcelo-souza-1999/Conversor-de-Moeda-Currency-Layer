@@ -1,2 +1,2 @@
+rootProject.name = "CoinConversor"
 include ':app'
-rootProject.name = "Desafio DQR Tech"

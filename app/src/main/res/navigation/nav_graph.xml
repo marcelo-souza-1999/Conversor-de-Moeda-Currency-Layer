@@ -1,26 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/convertedCurrencieFragment">
+    app:startDestination="@id/converterFragment">
     <fragment
-        android:id="@+id/convertedCurrencieFragment"
-        android:name="com.marcelo.conversor.ui.fragments.ConvertedCurrencieFragment"
-        android:label="fragment_converter"
-        tools:layout="@layout/fragment_convert_currencies" >
+        android:id="@+id/converterFragment"
+        android:name="com.marcelo.conversor.view.converter.ConverterFragment"
+        android:label="Conversor" >
         <action
-            android:id="@+id/action_converterFragment_to_currenciesFragment"
-            app:destination="@id/listCurrenciesFragment" />
+            android:id="@+id/to_currenciesFragment"
+            app:destination="@id/currenciesFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_right"
+            app:popEnterAnim="@anim/slide_in_right"
+            app:popExitAnim="@anim/slide_out_right"/>
     </fragment>
-
     <fragment
-        android:id="@+id/listCurrenciesFragment"
-        android:name="com.marcelo.conversor.ui.fragments.ListCurrenciesFragment"
-        android:label="fragment_currencies"
-        tools:layout="@layout/fragment_list_currencies">
-    <action
-        android:id="@+id/action_previousFragment_to_convertFragment"
-        app:destination="@id/convertedCurrencieFragment" />
-    </fragment>
+        android:id="@+id/currenciesFragment"
+        android:name="com.marcelo.conversor.view.currencies.CurrenciesFragment"
+        android:label="Lista" />
 </navigation>
